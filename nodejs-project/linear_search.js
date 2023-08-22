@@ -11,3 +11,9 @@ function search(arr, x)
     return null;
 }
 
+// { autofold
+module.exports = {
+  search: search
+};
+// }
+
