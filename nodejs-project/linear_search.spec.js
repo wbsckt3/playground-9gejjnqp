@@ -1,18 +1,19 @@
 ﻿﻿var assert = require('assert');
-var universe = require('./linear_search.js');
+var funcion_search = require('./linear_search.js');
 
+/* 
 var reduceUsed = false;
 var superReduce = Array.prototype.reduce;
 Array.prototype.reduce = function () {
   reduceUsed = true;
   return superReduce.apply(this, arguments);
-};
+}; */
 
-it('should sum stars', function () {
+it('Buscar un elemento en una posición específica', function () {
   try {
-    assert.equal(6, universe.countAllStars([1, 2, 3]));
-    assert.equal(16, universe.countAllStars([10, 3, 2, 1]));
-    assert.equal(42, universe.countAllStars([20, 20, 2]));
+    assert.equal(6, funcion_search.countAllStars([2, 3, 5, 7, 11, 13, 17]));
+    assert.equal(17, funcion_search.countAllStars([10, 3, 2, 1]));
+    assert.equal(42, funcion_search.countAllStars([20, 20, 2]));
 
     if (reduceUsed) {
       printMessage('My personal Yoda, you are. 🙏', '* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ');
