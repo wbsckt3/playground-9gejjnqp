@@ -1,9 +1,7 @@
 function countAllStars(galaxies) {
-  var totalStars = galaxies.reduce(
-     function (accumulator, stars) {
-       return accumulator + stars;
-     }
-  );
+  var totalStars = galaxies.reduce(function (accumulator, galaxy) {
+    return accumulator + galaxy.stars;
+  });
   return totalStars;
 }
 
