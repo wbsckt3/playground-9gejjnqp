@@ -1,5 +1,5 @@
 ﻿﻿var assert = require('assert');
-var universe = require('./universe.js');
+var universe = require('./universe2.js');
 
 var reduceUsed = false;
 var superReduce = Array.prototype.reduce;
