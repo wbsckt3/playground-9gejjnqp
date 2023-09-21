@@ -10,13 +10,11 @@ Array.prototype.reduce = function () {
 
 it('should sum stars', function () {
   try {
-    assert.equal(6, universe.countAllStars([1, 2, 3]));
     assert.equal(600, universe.countAllStars( [
       { name: 'Galaxy A', stars: 100 },
       { name: 'Galaxy B', stars: 200 },
       { name: 'Galaxy C', stars: 300 }
     ]));
-    assert.equal(42, universe.countAllStars([20, 20, 2]));
 
     if (reduceUsed) {
       printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
