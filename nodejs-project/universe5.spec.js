@@ -16,9 +16,9 @@ it('should sum stars', function () {
   ]));
 
     if (reduceUsed) {
-      printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
+      printMessage('Ok! el uso de map + función flecha para obtener los nombres de las galaxias. 🙏');
     } else {
-      printMessage('Bien hecho! pero es importante considerar el tiempo de ejecución. Tip 💡', 'Esto puede optimizarse sin ciclos para reducir el tiempo de ejecución');
+      printMessage('Bien hecho! 💡');
     }
   } catch (error) {
     printMessage('🤔 💡', 'Si acumulaste todas las estrellas en la variable \'totalStars\'? ');
