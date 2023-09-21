@@ -2,7 +2,7 @@
 function countAllStars(galaxies) {
   var totalStars = 0;
   galaxies.forEach(function(stars) {
-    totalStars = stars; // fix me
+    totalStars = stars; // arregla esta línea para acumular en totalStars 
   }, this);
   return totalStars;
 }
