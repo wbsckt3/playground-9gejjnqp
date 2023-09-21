@@ -15,7 +15,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/nodejs-template), pl
 
 @[4. Reduce + función flecha sobre objetos: ahora tenemos un objeto , que es un array que contiene registros compuestos y necesitamos sumar el total de estrellas provisto pero ahora tenemos el nombre de las galaxias como un elemento del objeto]({ "stubs": ["universe4.js"], "command": "node_modules/mocha/bin/mocha universe4.spec.js --reporter list" })
 
-@[5. Uso de map + función flecha para recorrer el array de objetos y extraer info]({ "stubs": ["universe5.js"], "command": "node_modules/mocha/bin/mocha universe5.spec.js --reporter list" })
+@[5. Uso de map + función flecha para recorrer el array de objetos y extraer los nombres de las galaxias solamente]({ "stubs": ["universe5.js"], "command": "node_modules/mocha/bin/mocha universe5.spec.js --reporter list" })
 
 @[6. Uso de reduce + función flecha para obtener un registro (objeto del array) obtener el registro de la galaxia con mayor número de estrellas ]({ "stubs": ["universe6.js"], "command": "node_modules/mocha/bin/mocha universe6.spec.js --reporter list" })
 
