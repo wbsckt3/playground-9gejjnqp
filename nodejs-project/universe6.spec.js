@@ -10,10 +10,10 @@ Array.prototype.reduce = function () {
 
 it('should sum stars', function () {
   try {
-    assert.equal({ name: 'Galaxy c', stars: 800 }, universe.getGalaxyWithMostStars([
+    assert.equal({ name: 'Galaxy C', stars: 800 }, universe.getGalaxyWithMostStars([
     { name: 'Galaxy A', stars: 100 },
     { name: 'Galaxy B', stars: 200 },
-    { name: 'Galaxy c', stars: 800 }
+    { name: 'Galaxy C', stars: 800 }
   ]));
 
     if (reduceUsed) {
