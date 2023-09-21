@@ -15,18 +15,12 @@ it('should sum stars', function () {
     assert.equal(42, universe.countAllStars([20, 20, 2]));
 
     if (reduceUsed) {
-      printMessage('My personal Yoda, you are. 🙏', '* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ');
-      printMessage('My personal Yoda, you are. 🙏', '           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ');
-      printMessage('My personal Yoda, you are. 🙏', '__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .');
-      printMessage('My personal Yoda, you are. 🙏', '\'-._\\7\'      .　　° ☾  ° 　¸.☆  ● .　　　');
-      printMessage('My personal Yoda, you are. 🙏', ' /\'.-c    　   * ●  ¸.　　°     ° 　¸.    ');
-      printMessage('My personal Yoda, you are. 🙏', ' |  /T      　　°     ° 　¸.     ¸ .　　  ');
-      printMessage('My personal Yoda, you are. 🙏', '_)_/LI');
+      printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
     } else {
-      printMessage('Hint 💡', 'Do you know the reduce function in JavaScript? 🤔');
+      printMessage('Bien hecho! pero es importante considerar el tiempo de ejecución. Tip 💡', 'Esto puede optimizarse sin ciclos para reducir el tiempo de ejecución');
     }
   } catch (error) {
-    printMessage('Hint 💡', 'Did you properly accumulate all stars into \'totalStars\'? 🤔');
+    printMessage('🤔 💡', 'Si acumulaste todas las estrellas en la variable \'totalStars\'? ');
     throw error;
   }
 });
