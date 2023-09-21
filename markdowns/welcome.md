@@ -8,6 +8,15 @@ The source code is on [GitHub](https://github.com/TechDotIO/nodejs-template), pl
 # Hands-on Demo
 
 @[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe.js"], "command": "node_modules/mocha/bin/mocha universe.spec.js --reporter list" })
+@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe2.js"], "command": "node_modules/mocha/bin/mocha universe2.spec.js --reporter list" })
+@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe3.js"], "command": "node_modules/mocha/bin/mocha universe3.spec.js --reporter list" })
+@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe4.js"], "command": "node_modules/mocha/bin/mocha universe4.spec.js --reporter list" })
+@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe5.js"], "command": "node_modules/mocha/bin/mocha universe5.spec.js --reporter list" })
+@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe6.js"], "command": "node_modules/mocha/bin/mocha universe6.spec.js --reporter list" })
+@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe7.js"], "command": "node_modules/mocha/bin/mocha universe7.spec.js --reporter list" })
+@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe8.js"], "command": "node_modules/mocha/bin/mocha universe8.spec.js --reporter list" })
+@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe9.js"], "command": "node_modules/mocha/bin/mocha universe9.spec.js --reporter list" })
+@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe10.js"], "command": "node_modules/mocha/bin/mocha universe10.spec.js --reporter list" })
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/nodejs-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
