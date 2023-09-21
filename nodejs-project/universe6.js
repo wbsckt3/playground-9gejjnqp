@@ -1,9 +1,15 @@
-function countAllStars(galaxies) {
-  var totalStars = 0;
-  galaxies.forEach(function(stars) {
-    totalStars = stars; // fix me
-  }, this);
-  return totalStars;
+function getGalaxyWithMostStars(galaxies) {
+  if (galaxies.length === 0) {
+    return null; // En caso de que la matriz esté vacía
+  }
+
+  return galaxies.reduce((maxGalaxy, currentGalaxy) => {
+    if (currentGalaxy.stars > maxGalaxy.stars) {
+      return currentGalaxy;
+    } else {
+      return maxGalaxy;
+    }
+  });
 }
 
 // { autofold
