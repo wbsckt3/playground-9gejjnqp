@@ -10,7 +10,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/nodejs-template), pl
 @[1. Acumulador en Array: Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe.js"], "command": "node_modules/mocha/bin/mocha universe.spec.js --reporter list" })
 @[2. Reduce function: Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe2.js"], "command": "node_modules/mocha/bin/mocha universe2.spec.js --reporter list" })
 @[3. Función flecha: Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe3.js"], "command": "node_modules/mocha/bin/mocha universe3.spec.js --reporter list" })
-@[4. Reduce Con objetos:  ]({ "stubs": ["universe4.js"], "command": "node_modules/mocha/bin/mocha universe4.spec.js --reporter list" })
+@[4. Reduce + función flecha sobre objetos: ]({ "stubs": ["universe4.js"], "command": "node_modules/mocha/bin/mocha universe4.spec.js --reporter list" })
 @[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe5.js"], "command": "node_modules/mocha/bin/mocha universe5.spec.js --reporter list" })
 @[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe6.js"], "command": "node_modules/mocha/bin/mocha universe6.spec.js --reporter list" })
 @[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe7.js"], "command": "node_modules/mocha/bin/mocha universe7.spec.js --reporter list" })
