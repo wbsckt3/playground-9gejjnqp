@@ -12,7 +12,7 @@ Array.prototype.reduce = function () {
 it('Buscar un elemento en una posición específica', function () {
   try {
     //assert.equal(6, funcion_search.search([2, 3, 5, 7, 11, 13, 17], 6));
-    assert.equal(17, funcion_search.search([2, 3, 5, 7, 11, 13, 17], 13));
+    assert.equal(17, funcion_search.search([2, 3, 5, 7, 11, 13, 17], 17));
     assert.equal(42, funcion_search.search([2, 3, 5, 7, 11, 13, 17], 2 ));
 
     /*if (reduceUsed) {
