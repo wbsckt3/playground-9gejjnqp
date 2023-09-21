@@ -15,7 +15,7 @@ it('should sum stars', function () {
     assert.equal(42, universe.countAllStars([20, 20, 2]));
 
     if (reduceUsed) {
-      printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
+      printMessage('Ok! el uso de Reduce para evitar usar ciclos = mucho código, referencias en memoria y reducir el tiempo de ejecución. 🙏');
     } else {
       printMessage('Tip 💡', 'Esto puede optimizarse sin ciclos para reducir el tiempo de ejecución');
     }
