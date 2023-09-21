@@ -1,13 +1,9 @@
-function countAllStars(galaxies) {
-  var totalStars = 0;
-  galaxies.forEach(function(stars) {
-    totalStars = stars; // fix me
-  }, this);
-  return totalStars;
+function getGalaxyNames(galaxies) {
+  return galaxies.map((galaxy) => galaxy.name);
 }
 
 // { autofold
 module.exports = {
-  countAllStars: countAllStars
+  getGalaxyNames: getGalaxyNames
 };
 // }
