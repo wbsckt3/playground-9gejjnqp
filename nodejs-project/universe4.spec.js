@@ -13,9 +13,9 @@ it('should sum stars', function () {
     assert.equal(600, universe.countAllStars( [{ 'name': 'Galaxy A', 'stars': 100 },{ 'name': 'Galaxy B', 'stars': 200 },{ 'name': 'Galaxy C', 'stars': 300 }] ));
 
     if (reduceUsed) {
-      printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
+      printMessage('Ok! el uso de Reduce + función flecha sobre objetos. 🙏');
     } else {
-      printMessage('Bien hecho! pero es importante considerar el tiempo de ejecución. Tip 💡', 'Esto puede optimizarse sin ciclos para reducir el tiempo de ejecución');
+      printMessage('Bien hecho! pero es importante considerar el tiempo de ejecución. Tip 💡', 'Esto puede optimizarse con Reduce y sin ciclos');
     }
   } catch (error) {
     printMessage('🤔 💡', 'Si acumulaste todas las estrellas en la variable \'totalStars\'? ');
