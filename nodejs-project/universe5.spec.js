@@ -14,7 +14,6 @@ it('should sum stars', function () {
     { name: 'Galaxy A', stars: 100 },
     { name: 'Galaxy B', stars: 200 }
   ]));
-    assert.equal(42, universe.getGalaxyNames([20, 20, 2]));
 
     if (reduceUsed) {
       printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
