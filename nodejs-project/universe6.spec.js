@@ -10,9 +10,11 @@ Array.prototype.reduce = function () {
 
 it('should sum stars', function () {
   try {
-    assert.equal(6, universe.countAllStars([1, 2, 3]));
-    assert.equal(34, universe.countAllStars( [10, 3, 2, 1, 6, 1, 9, 2]));
-    assert.equal(42, universe.countAllStars([20, 20, 2]));
+    assert.equal(6, universe.getGalaxyWithMostStars([
+    { name: 'Galaxy A', stars: 100 },
+    { name: 'Galaxy B', stars: 200 },
+    { name: 'Galaxy c', stars: 800 }
+  ]));
 
     if (reduceUsed) {
       printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
