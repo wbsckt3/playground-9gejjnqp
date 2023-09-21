@@ -11,7 +11,7 @@ Array.prototype.reduce = function () {
 it('should sum stars', function () {
   try {
     assert.equal(6, universe.countAllStars([1, 2, 3]));
-    assert.equal(34, universe.countAllStars( [
+    assert.equal(600, universe.countAllStars( [
       { name: 'Galaxy A', stars: 100 },
       { name: 'Galaxy B', stars: 200 },
       { name: 'Galaxy C', stars: 300 }
