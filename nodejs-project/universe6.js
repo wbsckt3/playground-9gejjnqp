@@ -14,6 +14,6 @@ function getGalaxyWithMostStars(galaxies) {
 
 // { autofold
 module.exports = {
-  countAllStars: countAllStars
+  getGalaxyWithMostStars: getGalaxyWithMostStars
 };
 // }
