@@ -11,11 +11,11 @@ Array.prototype.reduce = function () {
 
 it('Buscar un elemento en una posición específica', function () {
   try {
-    assert.equal(6, funcion_search.countAllStars([2, 3, 5, 7, 11, 13, 17]));
-    assert.equal(17, funcion_search.countAllStars([10, 3, 2, 1]));
-    assert.equal(42, funcion_search.countAllStars([20, 20, 2]));
+    assert.equal(6, funcion_search.search([2, 3, 5, 7, 11, 13, 17]));
+    assert.equal(17, funcion_search.search([10, 3, 2, 1]));
+    assert.equal(42, funcion_search.search([20, 20, 2]));
 
-    if (reduceUsed) {
+    /*if (reduceUsed) {
       printMessage('My personal Yoda, you are. 🙏', '* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ');
       printMessage('My personal Yoda, you are. 🙏', '           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ');
       printMessage('My personal Yoda, you are. 🙏', '__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .');
@@ -25,9 +25,10 @@ it('Buscar un elemento en una posición específica', function () {
       printMessage('My personal Yoda, you are. 🙏', '_)_/LI');
     } else {
       printMessage('Hint 💡', 'Do you know the reduce function in JavaScript? 🤔');
-    }
+    }*/
+    
   } catch (error) {
-    printMessage('Hint 💡', 'Did you properly accumulate all stars into \'totalStars\'? 🤔');
+    printMessage('Tip 💡', 'Cual es la variable que debe retornar la función? \'totalStars\'? 🤔');
     throw error;
   }
 });
