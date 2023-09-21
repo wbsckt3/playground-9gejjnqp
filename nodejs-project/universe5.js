@@ -7,7 +7,7 @@ const galaxies =  [
     { name: 'Galaxy A', stars: 100 },
     { name: 'Galaxy B', stars: 200 },
     { name: 'Galaxy c', stars: 800 }
-  ]; universe.getGalaxyNames(galaxies)
+  ];  getGalaxyNames(galaxies)
 */
 // { autofold
 module.exports = {
