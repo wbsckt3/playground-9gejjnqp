@@ -7,9 +7,9 @@ The source code is on [GitHub](https://github.com/TechDotIO/nodejs-template), pl
 
 # Hands-on Demo
 
-@[0. Acumulador en un ciclo for Array (Tradicional): Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] y nos piden que sumemos el total de estrellas que hay en el conjunto]({ "stubs": ["universe0.js"], "command": "node_modules/mocha/bin/mocha universe.spec.js --reporter list" })
+@[0. Acumulador en un ciclo for Array (Tradicional): Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] y nos piden que sumemos el total de estrellas que hay en el conjunto]({ "stubs": ["universe0.js"], "command": "node_modules/mocha/bin/mocha universe0.spec.js --reporter list" })
 
-@[1. Acumulador en forEach + programación funcional (función anónima dentro de una función nativa de JS): Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] y nos piden que sumemos el total de estrellas que hay en el conjunto]({ "stubs": ["universe1.js"], "command": "node_modules/mocha/bin/mocha universe.spec.js --reporter list" })
+@[1. Acumulador en forEach + programación funcional (función anónima dentro de una función nativa de JS): Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] y nos piden que sumemos el total de estrellas que hay en el conjunto]({ "stubs": ["universe1.js"], "command": "node_modules/mocha/bin/mocha universe1.spec.js --reporter list" })
 
 @[2. Reduce function sobre Array: Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] y necesitamos obtener el total de estrellas, es decir la suma, pero necesitamos refactorizar = mejorar el código para la programación y la sintaxis de React o Vue]({ "stubs": ["universe2.js"], "command": "node_modules/mocha/bin/mocha universe2.spec.js --reporter list" })
 
