@@ -17,7 +17,7 @@ it('should sum stars', function () {
         await myAsyncFunction();
         const endTime = new Date().getTime();
         const elapsedTime = endTime - startTime;
-        expect(elapsedTime).to.be.at.least(2000); // Comprueba que haya transcurrido al menos 2 segundos
+        assert(elapsedTime >= 2000); // Comprueba que haya transcurrido al menos 2 segundos
       });
     });
 
