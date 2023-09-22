@@ -1,19 +1,23 @@
-function hacerAlgo(callback) {
-  // Realiza alguna tarea aquí
-  // Llama al callback cuando la tarea esté completa
-  // En este ejemplo, solo llamamos al callback sin devolver un valor
-  callback();
-  return "Tarea completada";
+// Definir una función que retorne una promesa con un retraso
+function delay(ms) {
+  return new Promise(resolve => {
+    setTimeout(resolve, ms);
+  });
 }
 
-function miCallback() {
-  console.log("La tarea se ha completado.");
+// Definir una función asíncrona que usa el retraso
+async function myAsyncFunction() {
+  console.log('Comenzando tarea asíncrona...');
+  await delay(4000); // Espera 2 segundos (2000 milisegundos)
+  console.log('Tarea asíncrona completada después de 2 segundos.');
 }
 
-hacerAlgo(miCallback);
+// Llamar a la función asíncrona
+// myAsyncFunction();
+
 
 // { autofold
 module.exports = {
-  hacerAlgo: hacerAlgo
+  myAsyncFunction: myAsyncFunction
 };
 // }
