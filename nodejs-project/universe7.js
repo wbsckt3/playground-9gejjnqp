@@ -51,6 +51,6 @@ function getNestedInfo(recordId) {
 
 // { autofold
 module.exports = {
-  countAllStars: countAllStars
+  getNestedInfo: getNestedInfo
 };
 // }
