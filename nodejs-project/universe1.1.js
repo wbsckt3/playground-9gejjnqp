@@ -12,6 +12,6 @@ hacerAlgo(miCallback);
 
 // { autofold
 module.exports = {
-  countAllStars: countAllStars
+  hacerAlgo: hacerAlgo
 };
 // }
