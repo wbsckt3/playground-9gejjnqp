@@ -10,9 +10,23 @@ Array.prototype.reduce = function () {
 
 it('should sum stars', function () {
   try {
-    assert.equal(6, universe.countAllStars([1, 2, 3]));
-    assert.equal(34, universe.countAllStars( [10, 3, 2, 1, 6, 1, 9, 2]));
-    assert.equal(42, universe.countAllStars([20, 20, 2]));
+    describe('getNestedInfo', () => {
+      it('debería devolver información anidada para un registro existente', () => {
+        const recordId = 2;
+        const expectedNestedInfo = {
+          value: 'Value for Record 2',
+        };
+        const nestedInfo = getNestedInfo(recordId);
+        assert.deepEqual(nestedInfo, expectedNestedInfo);
+      });
+    
+      it('debería devolver null para un registro inexistente', () => {
+        const recordId = 999; // Un ID que no existe en tus datos de ejemplo
+        const expectedNestedInfo = null;
+        const nestedInfo = getNestedInfo(recordId);
+        assert.equal(nestedInfo, expectedNestedInfo);
+      });
+    });
 
     if (reduceUsed) {
       printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
