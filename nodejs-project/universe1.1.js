@@ -3,6 +3,7 @@ function hacerAlgo(callback) {
   // Llama al callback cuando la tarea esté completa
   // En este ejemplo, solo llamamos al callback sin devolver un valor
   callback();
+  return "Tarea completada";
 }
 
 function miCallback() {
