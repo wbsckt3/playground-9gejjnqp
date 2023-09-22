@@ -10,7 +10,7 @@ Array.prototype.reduce = function () {
 
 it('should sum stars', function () {
   try {
-    assert.equal(undefined, universe.hacerAlgo());
+    assert.equal("", universe.hacerAlgo());
 
     if (reduceUsed) {
       printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
