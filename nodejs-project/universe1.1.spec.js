@@ -11,13 +11,19 @@ Array.prototype.reduce = function () {
 
 it('should sum stars', function () {
   try {
-    describe('myAsyncFunction', () => {
-      it('debería completarse después de 2 segundos', async () => {
+      
+    describe('myAsyncFunction', function () {
+      it('debería completarse después de 2 segundos', function (done) {
         const startTime = new Date().getTime();
-        await myAsyncFunction();
-        const endTime = new Date().getTime();
-        const elapsedTime = endTime - startTime;
-        assert(elapsedTime >= 2000); // Comprueba que haya transcurrido al menos 2 segundos
+        myAsyncFunction().then(function () {
+          const endTime = new Date().getTime();
+          const elapsedTime = endTime - startTime;
+          if (elapsedTime >= 2000) {
+            done();
+          } else {
+            done(new Error('La función asíncrona no se completó en 2 segundos.'));
+          }
+        }).catch(done);
       });
     });
 
