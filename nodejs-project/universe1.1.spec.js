@@ -1,6 +1,5 @@
 var assert = require('assert');
 var universe = require('./universe1.1.js');
-    const { expect } = require('chai');
 
 var reduceUsed = false;
 var superReduce = Array.prototype.reduce;
