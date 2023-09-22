@@ -1,5 +1,6 @@
 ﻿﻿var assert = require('assert');
-var universe = require('./universe7.js');
+var { getNestedInfo } = require('./universe7.js');
+
 
 var reduceUsed = false;
 var superReduce = Array.prototype.reduce;
