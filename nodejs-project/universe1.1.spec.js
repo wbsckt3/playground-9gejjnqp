@@ -1,5 +1,5 @@
 var assert = require('assert');
-var universe = require('./universe1.js');
+var universe = require('./universe1.1.js');
 
 var reduceUsed = false;
 var superReduce = Array.prototype.reduce;
@@ -10,9 +10,7 @@ Array.prototype.reduce = function () {
 
 it('should sum stars', function () {
   try {
-    assert.equal(6, universe.countAllStars([1, 2, 3]));
-    assert.equal(34, universe.countAllStars( [10, 3, 2, 1, 6, 1, 9, 2]));
-    assert.equal(42, universe.countAllStars([20, 20, 2]));
+    assert.equal("", universe.hacerAlgo());
 
     if (reduceUsed) {
       printMessage('Ok! el uso de Reduce para reducir el tiempo de ejecución. 🙏');
