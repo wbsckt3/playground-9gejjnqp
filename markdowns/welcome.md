@@ -23,7 +23,8 @@ The source code is on [GitHub](https://github.com/TechDotIO/nodejs-template), pl
 
 @[6. Uso de reduce + función flecha para obtener un registro (objeto del array) obtener el registro de la galaxia con mayor número de estrellas ]({ "stubs": ["universe6.js"], "command": "node_modules/mocha/bin/mocha universe6.spec.js --reporter list" })
 
-@[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe7.js"], "command": "node_modules/mocha/bin/mocha universe7.spec.js --reporter list" })
+@[Supongamos un objeto complejo con tres niveles de profunididad y necesitmos extraer un dato que está anidado internamente]({ "stubs": ["universe7.js"], "command": "node_modules/mocha/bin/mocha universe7.spec.js --reporter list" })
+
 @[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe8.js"], "command": "node_modules/mocha/bin/mocha universe8.spec.js --reporter list" })
 @[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe9.js"], "command": "node_modules/mocha/bin/mocha universe9.spec.js --reporter list" })
 @[Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] ]({ "stubs": ["universe10.js"], "command": "node_modules/mocha/bin/mocha universe10.spec.js --reporter list" })
