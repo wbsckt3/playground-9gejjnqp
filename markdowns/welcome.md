@@ -11,6 +11,8 @@ The source code is on [GitHub](https://github.com/TechDotIO/nodejs-template), pl
 
 @[1. Acumulador en forEach + programación funcional (función anónima dentro de una función nativa de JS): Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] y nos piden que sumemos el total de estrellas que hay en el conjunto]({ "stubs": ["universe1.js"], "command": "node_modules/mocha/bin/mocha universe1.spec.js --reporter list" })
 
+@[1.1. Justificación del uso de la programación funcional: El uso de forEach en la programación funcional es con el objetivo de manejar el tiempo de ejecución de funciones asíncronas en requests http que de otra forma en un ciclo for es ineficiente. Básicamente el uso de funciones anidadas es el objetivo de la programación funcional que es implementada en los frameworks javascript como react, angular o vue]({ "stubs": ["universe1.1.js"], "command": "node_modules/mocha/bin/mocha universe1.1.spec.js --reporter list" })
+
 @[2. Reduce function sobre Array: Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] y necesitamos obtener el total de estrellas, es decir la suma, pero necesitamos refactorizar = mejorar el código para la programación y la sintaxis de React o Vue]({ "stubs": ["universe2.js"], "command": "node_modules/mocha/bin/mocha universe2.spec.js --reporter list" })
 
 @[3. Función flecha sobre Array: Supongamos un arreglo que tiene el número de estrellas por galaxia = [10, 3, 2, 1, 6, 1, 9, 2] y necesitamos obtener el total de estrellas, es decir la suma pero necesitamos refactorizar, optimizar el código ]({ "stubs": ["universe3.js"], "command": "node_modules/mocha/bin/mocha universe3.spec.js --reporter list" })
