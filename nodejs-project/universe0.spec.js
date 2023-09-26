@@ -16,6 +16,7 @@ it('should sum stars', function () {
 
     if (reduceUsed) {
       printMessage('Ok! el uso de Reduce 🙏');
+      localStorage.setItem("ejercicio0", "ok");
     } else {
       printMessage('Bien hecho! Tip 💡', 'Esto puede optimizarse sin ciclos para el manejo de objetos en react o vue');
     }
