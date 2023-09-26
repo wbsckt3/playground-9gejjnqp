@@ -18,7 +18,13 @@ it('should sum stars', function () {
       printMessage('Ok! el uso de Reduce 🙏');
     } else {
       printMessage('Bien hecho! Tip 💡', 'Esto puede optimizarse sin ciclos para el manejo de objetos en react o vue');
-      localStorage.setItem("ejercicio1", "ok")
+      const fs = require('fs');
+      // Datos que deseas almacenar
+      const datos = { ejercicio1: 'ok' };      
+      // Convierte los datos a formato JSON
+      const datosJSON = JSON.stringify(datos);   
+      // Escribe los datos en un archivo llamado "datos.json"
+      fs.writeFileSync('datos.json', datosJSON);
     }
   } catch (error) {
     printMessage('🤔 💡', 'Si acumulaste todas las estrellas en la variable \'totalStars\'? ');
