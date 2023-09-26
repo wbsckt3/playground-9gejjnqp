@@ -18,6 +18,7 @@ it('should sum stars', function () {
       printMessage('Ok! el uso de Reduce 🙏');
     } else {
       printMessage('Bien hecho! Tip 💡', 'Esto puede optimizarse sin ciclos para el manejo de objetos en react o vue');
+      localStorage.setItem("ejercicio1", "ok")
     }
   } catch (error) {
     printMessage('🤔 💡', 'Si acumulaste todas las estrellas en la variable \'totalStars\'? ');
